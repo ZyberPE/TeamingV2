@@ -1,0 +1,20 @@
+name: Teaming
+main: Teaming\Main
+version: 1.0.0
+api: 5.43.2
+
+author: ZyberPE
+
+commands:
+  team:
+    description: Team management command
+    permission: teaming.command
+    aliases:
+      - t
+
+permissions:
+  teaming.command:
+    default: true
+
+  teaming.admin:
+    default: op
